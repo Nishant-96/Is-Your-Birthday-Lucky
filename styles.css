@@ -4,7 +4,7 @@
 #container{
     display: flex;
     flex-direction:column;
-    max-width: 600px;
+    max-width:50%;
     margin: auto;
     padding: 1rem;
     padding-bottom: 8rem;
@@ -50,4 +50,17 @@ button{
     font-weight: bold;
     font-size: medium;
     border-radius: 0.3rem;
+    display: block;
+}
+
+#output-container{
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+
+#error-box{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    color: red;
+    font-weight: bolder;
 }
